@@ -8,22 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F819BA122053AE5C00FBB8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BA112053AE5C00FBB8F1 /* AppDelegate.swift */; };
-		F819BA142053AE5C00FBB8F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BA132053AE5C00FBB8F1 /* ViewController.swift */; };
 		F819BA172053AE5C00FBB8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F819BA152053AE5C00FBB8F1 /* Main.storyboard */; };
 		F819BA192053AE5C00FBB8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F819BA182053AE5C00FBB8F1 /* Assets.xcassets */; };
 		F819BA1C2053AE5C00FBB8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F819BA1A2053AE5C00FBB8F1 /* LaunchScreen.storyboard */; };
-		F819BA272053AE5C00FBB8F1 /* HighLoadBigDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BA262053AE5C00FBB8F1 /* HighLoadBigDataTests.swift */; };
-		F819BA322053AE5C00FBB8F1 /* HighLoadBigDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BA312053AE5C00FBB8F1 /* HighLoadBigDataUITests.swift */; };
+		F819BA322053AE5C00FBB8F1 /* WrongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819BA312053AE5C00FBB8F1 /* WrongTests.swift */; };
+		F8277AFA205ACC7B007B012D /* MyNewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8277AF9205ACC7B007B012D /* MyNewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F819BA232053AE5C00FBB8F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F819BA062053AE5C00FBB8F1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F819BA0D2053AE5C00FBB8F1;
-			remoteInfo = HighLoadBigData;
-		};
 		F819BA2E2053AE5C00FBB8F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F819BA062053AE5C00FBB8F1 /* Project object */;
@@ -36,28 +28,18 @@
 /* Begin PBXFileReference section */
 		F819BA0E2053AE5C00FBB8F1 /* HighLoadBigData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighLoadBigData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F819BA112053AE5C00FBB8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F819BA132053AE5C00FBB8F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F819BA162053AE5C00FBB8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F819BA182053AE5C00FBB8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F819BA1B2053AE5C00FBB8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F819BA1D2053AE5C00FBB8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F819BA222053AE5C00FBB8F1 /* HighLoadBigDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighLoadBigDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F819BA262053AE5C00FBB8F1 /* HighLoadBigDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLoadBigDataTests.swift; sourceTree = "<group>"; };
-		F819BA282053AE5C00FBB8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F819BA2D2053AE5C00FBB8F1 /* HighLoadBigDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighLoadBigDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F819BA312053AE5C00FBB8F1 /* HighLoadBigDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLoadBigDataUITests.swift; sourceTree = "<group>"; };
+		F819BA312053AE5C00FBB8F1 /* WrongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongTests.swift; sourceTree = "<group>"; };
 		F819BA332053AE5C00FBB8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8277AF9205ACC7B007B012D /* MyNewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F819BA0B2053AE5C00FBB8F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F819BA1F2053AE5C00FBB8F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				F819BA102053AE5C00FBB8F1 /* HighLoadBigData */,
-				F819BA252053AE5C00FBB8F1 /* HighLoadBigDataTests */,
 				F819BA302053AE5C00FBB8F1 /* HighLoadBigDataUITests */,
 				F819BA0F2053AE5C00FBB8F1 /* Products */,
 			);
@@ -88,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				F819BA0E2053AE5C00FBB8F1 /* HighLoadBigData.app */,
-				F819BA222053AE5C00FBB8F1 /* HighLoadBigDataTests.xctest */,
 				F819BA2D2053AE5C00FBB8F1 /* HighLoadBigDataUITests.xctest */,
 			);
 			name = Products;
@@ -98,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				F819BA112053AE5C00FBB8F1 /* AppDelegate.swift */,
-				F819BA132053AE5C00FBB8F1 /* ViewController.swift */,
 				F819BA152053AE5C00FBB8F1 /* Main.storyboard */,
 				F819BA182053AE5C00FBB8F1 /* Assets.xcassets */,
 				F819BA1A2053AE5C00FBB8F1 /* LaunchScreen.storyboard */,
@@ -107,20 +86,12 @@
 			path = HighLoadBigData;
 			sourceTree = "<group>";
 		};
-		F819BA252053AE5C00FBB8F1 /* HighLoadBigDataTests */ = {
-			isa = PBXGroup;
-			children = (
-				F819BA262053AE5C00FBB8F1 /* HighLoadBigDataTests.swift */,
-				F819BA282053AE5C00FBB8F1 /* Info.plist */,
-			);
-			path = HighLoadBigDataTests;
-			sourceTree = "<group>";
-		};
 		F819BA302053AE5C00FBB8F1 /* HighLoadBigDataUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F819BA312053AE5C00FBB8F1 /* HighLoadBigDataUITests.swift */,
+				F819BA312053AE5C00FBB8F1 /* WrongTests.swift */,
 				F819BA332053AE5C00FBB8F1 /* Info.plist */,
+				F8277AF9205ACC7B007B012D /* MyNewTest.swift */,
 			);
 			path = HighLoadBigDataUITests;
 			sourceTree = "<group>";
@@ -144,24 +115,6 @@
 			productName = HighLoadBigData;
 			productReference = F819BA0E2053AE5C00FBB8F1 /* HighLoadBigData.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F819BA212053AE5C00FBB8F1 /* HighLoadBigDataTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F819BA392053AE5C00FBB8F1 /* Build configuration list for PBXNativeTarget "HighLoadBigDataTests" */;
-			buildPhases = (
-				F819BA1E2053AE5C00FBB8F1 /* Sources */,
-				F819BA1F2053AE5C00FBB8F1 /* Frameworks */,
-				F819BA202053AE5C00FBB8F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F819BA242053AE5C00FBB8F1 /* PBXTargetDependency */,
-			);
-			name = HighLoadBigDataTests;
-			productName = HighLoadBigDataTests;
-			productReference = F819BA222053AE5C00FBB8F1 /* HighLoadBigDataTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F819BA2C2053AE5C00FBB8F1 /* HighLoadBigDataUITests */ = {
 			isa = PBXNativeTarget;
@@ -195,11 +148,6 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					F819BA212053AE5C00FBB8F1 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F819BA0D2053AE5C00FBB8F1;
-					};
 					F819BA2C2053AE5C00FBB8F1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -221,7 +169,6 @@
 			projectRoot = "";
 			targets = (
 				F819BA0D2053AE5C00FBB8F1 /* HighLoadBigData */,
-				F819BA212053AE5C00FBB8F1 /* HighLoadBigDataTests */,
 				F819BA2C2053AE5C00FBB8F1 /* HighLoadBigDataUITests */,
 			);
 		};
@@ -235,13 +182,6 @@
 				F819BA1C2053AE5C00FBB8F1 /* LaunchScreen.storyboard in Resources */,
 				F819BA192053AE5C00FBB8F1 /* Assets.xcassets in Resources */,
 				F819BA172053AE5C00FBB8F1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F819BA202053AE5C00FBB8F1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,16 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F819BA142053AE5C00FBB8F1 /* ViewController.swift in Sources */,
 				F819BA122053AE5C00FBB8F1 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F819BA1E2053AE5C00FBB8F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F819BA272053AE5C00FBB8F1 /* HighLoadBigDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,18 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F819BA322053AE5C00FBB8F1 /* HighLoadBigDataUITests.swift in Sources */,
+				F8277AFA205ACC7B007B012D /* MyNewTest.swift in Sources */,
+				F819BA322053AE5C00FBB8F1 /* WrongTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F819BA242053AE5C00FBB8F1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F819BA0D2053AE5C00FBB8F1 /* HighLoadBigData */;
-			targetProxy = F819BA232053AE5C00FBB8F1 /* PBXContainerItemProxy */;
-		};
 		F819BA2F2053AE5C00FBB8F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F819BA0D2053AE5C00FBB8F1 /* HighLoadBigData */;
@@ -450,38 +377,6 @@
 			};
 			name = Release;
 		};
-		F819BA3A2053AE5C00FBB8F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HighLoadBigDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BlockchainSolutions.HighLoadBigDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighLoadBigData.app/HighLoadBigData";
-			};
-			name = Debug;
-		};
-		F819BA3B2053AE5C00FBB8F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HighLoadBigDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BlockchainSolutions.HighLoadBigDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighLoadBigData.app/HighLoadBigData";
-			};
-			name = Release;
-		};
 		F819BA3D2053AE5C00FBB8F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,15 +424,6 @@
 			buildConfigurations = (
 				F819BA372053AE5C00FBB8F1 /* Debug */,
 				F819BA382053AE5C00FBB8F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F819BA392053AE5C00FBB8F1 /* Build configuration list for PBXNativeTarget "HighLoadBigDataTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F819BA3A2053AE5C00FBB8F1 /* Debug */,
-				F819BA3B2053AE5C00FBB8F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
