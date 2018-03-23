@@ -52,6 +52,12 @@ class WrongTests: XCTestCase {
         
         XCTAssert(lastCat.isWithin(app))
     }
+    
+    func test_showingThat_isHittableDoesNotMeanIsVisible() {
+        app.tables.buttons["isHittable != isVisible"].tap()
+        
+        XCTAssert(app.buttons["InvisibleButton"].isHittable)
+    }
 }
 
 extension XCUIElement {

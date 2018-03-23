@@ -206,6 +206,30 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Wf0-OD-e47">
+                                        <rect key="frame" x="0.0" y="240" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wf0-OD-e47" id="4Rd-33-GKU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjh-By-A5T">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                    <state key="normal" title="isHittable != isVisible"/>
+                                                    <connections>
+                                                        <segue destination="dVR-0F-IMZ" kind="show" id="8Kv-Kf-2Mg"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="jjh-By-A5T" secondAttribute="trailing" id="Azh-jC-Xtw"/>
+                                                <constraint firstAttribute="bottom" secondItem="jjh-By-A5T" secondAttribute="bottom" id="T5j-rG-LSu"/>
+                                                <constraint firstItem="jjh-By-A5T" firstAttribute="top" secondItem="4Rd-33-GKU" secondAttribute="top" id="U70-kG-XFh"/>
+                                                <constraint firstItem="jjh-By-A5T" firstAttribute="leading" secondItem="4Rd-33-GKU" secondAttribute="leading" id="sqx-Fw-w9e"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -384,7 +408,81 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HX2-Ke-1A1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1460" y="741"/>
+            <point key="canvasLocation" x="1460" y="740.7796101949026"/>
+        </scene>
+        <!--Видимая вьюшка-->
+        <scene sceneID="98g-Rw-Pjn">
+            <objects>
+                <viewController title="Видимая вьюшка" id="dVR-0F-IMZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QX0-4Q-Aq7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaO-iJ-t6c">
+                                <rect key="frame" x="67" y="308.5" width="240" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="InvisibleButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="VRB-7Q-QJA"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="3dC-Sa-YMv" kind="show" id="NB2-gC-Qrm"/>
+                                </connections>
+                            </button>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7L1-qP-XJ7">
+                                <rect key="frame" x="0.0" y="283" width="375" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="caG-SY-3Gb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7L1-qP-XJ7" firstAttribute="trailing" secondItem="hdf-7u-bHw" secondAttribute="trailing" id="1zY-W3-l88"/>
+                            <constraint firstItem="XaO-iJ-t6c" firstAttribute="centerX" secondItem="QX0-4Q-Aq7" secondAttribute="centerX" id="52E-xO-aQx"/>
+                            <constraint firstItem="7L1-qP-XJ7" firstAttribute="leading" secondItem="hdf-7u-bHw" secondAttribute="leading" id="GgS-dl-beS"/>
+                            <constraint firstItem="hdf-7u-bHw" firstAttribute="trailing" secondItem="XaO-iJ-t6c" secondAttribute="trailing" constant="68" id="L7O-aR-dDl"/>
+                            <constraint firstItem="7L1-qP-XJ7" firstAttribute="centerY" secondItem="QX0-4Q-Aq7" secondAttribute="centerY" id="WK2-AR-5fG"/>
+                            <constraint firstItem="XaO-iJ-t6c" firstAttribute="leading" secondItem="hdf-7u-bHw" secondAttribute="leading" constant="67" id="mAB-oS-WRA"/>
+                            <constraint firstItem="XaO-iJ-t6c" firstAttribute="centerY" secondItem="QX0-4Q-Aq7" secondAttribute="centerY" id="uVD-PF-cPc"/>
+                            <constraint firstItem="7L1-qP-XJ7" firstAttribute="centerX" secondItem="QX0-4Q-Aq7" secondAttribute="centerX" id="xjK-pF-aHn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hdf-7u-bHw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hfh-nX-QBB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1460" y="1444"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VSe-WO-g5r">
+            <objects>
+                <viewController id="3dC-Sa-YMv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pba-8g-ljM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Нажалось, это нормально, но кнопка не видима" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmD-EU-MYd">
+                                <rect key="frame" x="20" y="323" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nmD-EU-MYd" firstAttribute="centerY" secondItem="pba-8g-ljM" secondAttribute="centerY" id="6u1-0Z-ZiN"/>
+                            <constraint firstItem="nmD-EU-MYd" firstAttribute="centerX" secondItem="pba-8g-ljM" secondAttribute="centerX" id="JKV-td-h3t"/>
+                            <constraint firstAttribute="trailing" secondItem="nmD-EU-MYd" secondAttribute="trailing" constant="20" id="Mxc-Hw-1aZ"/>
+                            <constraint firstItem="nmD-EU-MYd" firstAttribute="leading" secondItem="pba-8g-ljM" secondAttribute="leading" constant="20" id="YVI-WQ-BSj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Gd-IG-IG4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fbs-Bh-SVv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2214" y="1443"/>
         </scene>
     </scenes>
     <resources>
